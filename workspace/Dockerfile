@@ -147,7 +147,6 @@ RUN echo "" >> ~/.bashrc && \
 # Update composer
 ARG COMPOSER_VERSION=2
 ENV COMPOSER_VERSION ${COMPOSER_VERSION}
->>>>>>> 77a805c066339ccf8e6b0d13f460cd34e9389b02
 RUN composer self-update --${COMPOSER_VERSION}
 
 USER laradock
